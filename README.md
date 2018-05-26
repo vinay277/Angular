@@ -1,6 +1,4 @@
 # Angular
-Demo
-@Input and @Output
-#template reference variable
 
-This folder contains only the ts and html parts
+#
+Projects specific to angular concepts are added here in this repository
