@@ -1,0 +1,3 @@
+This folder has the basics of how the data can be passed from a parent to child and child to parent using
+@Input and @Output 
+Only the html and ts files are present
