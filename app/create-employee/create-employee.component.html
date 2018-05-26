@@ -1,0 +1,37 @@
+<form [formGroup]="employeeForm">
+<div>
+  <h3>Create New Employee</h3>
+</div>
+
+  <fieldset>
+    <label>First Name</label>
+    <input type="text" formControlName="firstName" [ngClass]="{ 'form-error': !employeeForm.get('firstName').valid && (employeeForm.get('firstName').touched) }">
+<label *ngIf="(employeeForm.get('firstName').dirty ||employeeForm.get('firstName').touched)">Please enter the first name</label>
+<br>
+    <label>Middle Name</label>
+    <input type="text" formControlName="middleName">
+    <label *ngIf="(employeeForm.get('middleName').dirty ||employeeForm.get('middleName').touched)">Please enter the Middle name</label>
+<br>
+    <label>Last Name</label>
+    <input type="text" formControlName="lastName">
+    <label *ngIf="(employeeForm.get('lastName').dirty ||employeeForm.get('lastName').touched)">Please enter the last name</label>
+  </fieldset>
+<br>
+  <div>
+    <label>Age</label>
+    <input type="number" formControlName="age">
+  </div>
+
+  <div>
+    <label>Date of Birth</label>
+    <input type="date" formControlName="dob">
+  </div>
+
+</form>
+
+<br>
+{{employeeForm.value | json}}
+<br>
+dirty :{{employeeForm.dirty}}
+valid : {{employeeForm.valid}}
+touched : {{employeeForm.touched}}

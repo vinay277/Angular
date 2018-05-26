@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": 66896,
+      "name":"Vinay",
+      "phone": "9620529048",
+
+      "address":{ 
+        "city":"Bangalore",
+        "street":"ABC street",
+        "state":"Karnataka",
+        "PostCode":"560076"
+    }
+    },
+    {
+      "id": 66923,
+      "name":"Himanshi",
+      "phone": "7720808609",
+
+      "address":{ 
+        "city":"Alighar",
+        "street":"PQR street",
+        "state":"UttarPradesh",
+        "PostCode":"412114"
+    }
+    },
+    {
+      "id": 66898,
+      "name":"Vijay",
+      "phone": "8888830456",
+
+      "address":{ 
+        "city":"Pune",
+        "street":"XYZ street",
+        "state":"Maharastra",
+        "PostCode":"411067"
+    }
+    }
+  ]
+}
